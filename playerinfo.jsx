@@ -21,21 +21,6 @@ const players = [
     strength: "Dribbling",
     number: "10",
   },
-  {
-    name: "Paul Pogba",
-    image:
-      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/26d99471-040a-4d16-9549-735eb387f92d/dayelca-c49789fd-8058-4bfa-a9d7-858ab617044a.png/v1/fill/w_712,h_1122,strp/paul_pogba_topaz_png_by_beastieblake_dayelca-pre.png",
-    position: "Midfielder",
-    nationality: "France",
-    age: "25",
-    dob: "March 3, 1993",
-    height: "6'3\" (1.9m)",
-    weight: "185lbs (84kg)",
-    currentTeam: "Manchester United",
-    goals: "22",
-    strength: "Finishing",
-    number: "6",
-  },
 ];
 
 const Container = styled.div`
@@ -134,42 +119,6 @@ class App extends React.Component {
           </Player>
           <PlayerName>{player.name}</PlayerName>
           <StatsContainer>
-            <Group>
-              <Label>Position</Label>
-              <Description>{player.position}</Description>
-            </Group>
-            <Group>
-              <Label>Nationality</Label>
-              <Description>{player.nationality}</Description>
-            </Group>
-            <Group>
-              <Label>Age</Label>
-              <Description>{player.age}</Description>
-            </Group>
-            <Group>
-              <Label>DOB</Label>
-              <Description>{player.dob}</Description>
-            </Group>
-            <Group>
-              <Label>Height</Label>
-              <Description>{player.height}</Description>
-            </Group>
-            <Group>
-              <Label>Weight</Label>
-              <Description>{player.weight}</Description>
-            </Group>
-            <Group>
-              <Label>Current Team</Label>
-              <Description>{player.currentTeam}</Description>
-            </Group>
-            <Group>
-              <Label>Season Goals</Label>
-              <Description>{player.goals}</Description>
-            </Group>
-            <Group>
-              <Label>Strength</Label>
-              <Description>{player.strength}</Description>
-            </Group>
             <Group>
               <Label>Number</Label>
               <Description>{player.number}</Description>

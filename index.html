@@ -16,7 +16,7 @@
  <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">-->
 
   <link href="style.css" rel="stylesheet">
-
+  <script type="text/javascript" src="./loader.js"></script>
 </head>
 
 <body id="page-top">
@@ -53,7 +53,7 @@
                  </div>
                   <div class="card-body">
                  
-	                  <table class="table">
+	                  <table class="table" id="playerTable">
 						  <thead class="thead-dark">
 						    <tr>
 						      <th scope="col">#</th>
@@ -66,68 +66,8 @@
 						      <th scope="col">Weighted Runs Created Plus (WRC)</th>
 						    </tr>
 						  </thead>
-						  <tbody>
-						    <tr>
-						      <th scope="row">1</th>
-						      <td>Mark</td>
-						      <td>100</td>
-						      <td>70%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">2</th>
-						      <td>Jacob</td>
-						      <td>200</td>
-						      <td>80%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-                            <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    
+						  <tbody id="tbody">
+
 						  </tbody>
 						</table>
 					</div>
@@ -168,48 +108,32 @@
             <div class="col-xl-8 col-lg-7">
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Team Stats</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Pitcher Stats</h6>
                 </div>
                 <div class="card-body"> 
                  
-                 <table class="table">
+                 <table class="table" id="teamTable">
 					  <thead class = "table-dark">
 					    <tr>
 					      <th scope="col">#</th>
-					      <th scope="col">Team Name</th>
-					      <th scope="col">Divsion</th>
-					      <th scope="col">Number of Wins</th>
-					      <th scope="col">Number of Losses</th>
+					      <th scope="col">Player Name</th>
+					      <th scope="col">Innings Pitched (IP)</th>
+					      <th scope="col">Win (W)</th>
+					      <th scope="col">Loss (L)</th>
+                <th scope="col">Earned Run Average (ERA)</th>
+                <th scope="col">Strikeout (K)</th>
+                <th scope="col">Walks (BB)</th>
+                <th scope="col">Fielding Independent Pitch (FIP)</th>
 					    </tr>
 					  </thead>
-					  <tbody>
-					    <tr>
-					      <th scope="row">1</th>
-					      <td>Detroit Tigers</td>
-					      <td>Central</td>
-					      <td>50</td>
-					      <td>60</td>
-					    </tr>
-					    <tr>
-					      <th scope="row">2</th>
-					      <td>New York Mets</td>
-					      <td>East</td>
-					      <td>70</td>
-					      <td>30</td>
-					    </tr>
-					    <tr>
-					      <th scope="row">3</th>
-					      <td>Texas Rangers</td>
-					      <td>West</td>
-					      <td>20</td>
-					      <td>70</td>
-					    </tr>
+					  <tbody id="tbody">
+
 					  </tbody>
 					</table>
 				</div>
               </div>
 
-            <div class="col-xl-4 col-lg-7">
+           <!-- <div class="col-xl-4 col-lg-7">
               <div class="card shadow mb-4">
 
               
@@ -225,7 +149,7 @@
               </div>
             </div>
 
-          </div>
+          </div>-->
     </div>
     
 

@@ -1,0 +1,76 @@
+{
+  "players": [
+    {
+      "batting_average": "0.21",
+      "home_runs": 15,
+      "on_base_percentage": 23.02,
+      "player_id": "607387",
+      "player_name": "Ryan Rua",
+      "slugging_percentage": 20.16
+    },
+    {
+      "batting_average": "0.27",
+      "home_runs": 67,
+      "on_base_percentage": 25.9,
+      "player_id": "134181",
+      "player_name": "Adrian Beltre",
+      "slugging_percentage": 27.6
+    },
+    {
+      "batting_average": "0.26",
+      "home_runs": 35,
+      "on_base_percentage": 24.93,
+      "player_id": "462101",
+      "player_name": "Elvis Andrus",
+      "slugging_percentage": 20.67
+    },
+    {
+      "batting_average": "0.23",
+      "home_runs": 79,
+      "on_base_percentage": 22.11,
+      "player_id": "596059",
+      "player_name": "Rougned Odor",
+      "slugging_percentage": 29.22
+    },
+    {
+      "batting_average": "0.2",
+      "home_runs": 36,
+      "on_base_percentage": 25.4,
+      "player_id": "455139",
+      "player_name": "Robinson Chirinos",
+      "slugging_percentage": 30.38
+    },
+    {
+      "batting_average": "0.17",
+      "home_runs": 48,
+      "on_base_percentage": 24.13,
+      "player_id": "608336",
+      "player_name": "Joey Gallo",
+      "slugging_percentage": 35.81
+    },
+    {
+      "batting_average": "0.23",
+      "home_runs": 40,
+      "on_base_percentage": 24.13,
+      "player_id": "608577",
+      "player_name": "Nomar Mazara",
+      "slugging_percentage": 22.01
+    },
+    {
+      "batting_average": "0.22",
+      "home_runs": 12,
+      "on_base_percentage": 24.6,
+      "player_id": "592261",
+      "player_name": "Delino DeShields",
+      "slugging_percentage": 15.1
+    },
+    {
+      "batting_average": "0.22",
+      "home_runs": 51,
+      "on_base_percentage": 26.87,
+      "player_id": "425783",
+      "player_name": "Shin-Soo Choo",
+      "slugging_percentage": 22.21
+    }
+  ]
+}

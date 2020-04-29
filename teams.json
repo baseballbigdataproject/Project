@@ -1,0 +1,335 @@
+{
+  "teams": [
+    {
+      "img": "https://cdn.sentinelcolorado.com/2018/08/23115823/colorado-rockies-logo.jpg",
+      "PCT": 49.69,
+      "away": 113,
+      "division": 6,
+      "home": 128,
+      "losses": 244,
+      "team_id": "col",
+      "team_name": "Colorado Rockies",
+      "wins": 241
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/59/full/8964_detroit_tigers-primary-2016.png",
+      "PCT": 49.48,
+      "away": 112,
+      "division": 2,
+      "home": 127,
+      "losses": 244,
+      "team_id": "det",
+      "team_name": "Detroit Tigers",
+      "wins": 239
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/3637/full/7544_miami_marlins-primary-2019.png",
+      "PCT": 47.84,
+      "away": 108,
+      "division": 4,
+      "home": 124,
+      "losses": 253,
+      "team_id": "mia",
+      "team_name": "Miami Marlins",
+      "wins": 232
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/75/full/1305.png",
+      "PCT": 48.45,
+      "away": 116,
+      "division": 3,
+      "home": 119,
+      "losses": 250,
+      "team_id": "sea",
+      "team_name": "Seattle Mariners",
+      "wins": 235
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/70/full/7579_philadelphia_phillies-primary-2019.png",
+      "PCT": 44.03,
+      "away": 92,
+      "division": 4,
+      "home": 122,
+      "losses": 272,
+      "team_id": "phi",
+      "team_name": "Philadelphia Phillie",
+      "wins": 214
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/578/full/rcehah9k0kekjkgzm077fflws.png",
+      "PCT": 52.67,
+      "away": 117,
+      "division": 4,
+      "home": 139,
+      "losses": 230,
+      "team_id": "was",
+      "team_name": "Washington Nationals",
+      "wins": 256
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/74/full/cpqj6up5bvgpoedg5fwsk20ve.png",
+      "PCT": 47.94,
+      "away": 109,
+      "division": 6,
+      "home": 124,
+      "losses": 253,
+      "team_id": "sfn",
+      "team_name": "San Francisco Giants",
+      "wins": 233
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/55/full/oxvkprv7v4inf5dgqdebp0yse.png",
+      "PCT": 49.18,
+      "away": 103,
+      "division": 2,
+      "home": 136,
+      "losses": 247,
+      "team_id": "cha",
+      "team_name": "Chicago White Sox",
+      "wins": 239
+    },
+    {
+      
+      "img": "https://content.sportslogos.net/logos/54/63/full/efvfv5b5g1zgpsf56gb04lthx.png",
+      "PCT": 57.11,
+      "away": 121,
+      "division": 6,
+      "home": 156,
+      "losses": 208,
+      "team_id": "lan",
+      "team_name": "Los Angeles Dodgers",
+      "wins": 277
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/6521/full/4389_los_angeles_angels-primary-2016.png",
+      "PCT": 47.93,
+      "away": 105,
+      "division": 3,
+      "home": 127,
+      "losses": 252,
+      "team_id": "ana",
+      "team_name": "Los Angeles Angels",
+      "wins": 232
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/78/full/2559d7603ouedg7ldhw0br4fn.png",
+      "PCT": 50.72,
+      "away": 109,
+      "division": 1,
+      "home": 137,
+      "losses": 239,
+      "team_id": "tor",
+      "team_name": "Toronto Blue Jays",
+      "wins": 246
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/62/full/8322_kansas_city_royals-primary-2019.png",
+      "PCT": 52.37,
+      "away": 106,
+      "division": 2,
+      "home": 148,
+      "losses": 231,
+      "team_id": "kca",
+      "team_name": "Kansas City Royals",
+      "wins": 254
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/68/full/1256.png",
+      "PCT": 49.69,
+      "away": 103,
+      "division": 1,
+      "home": 138,
+      "losses": 244,
+      "team_id": "nya",
+      "team_name": "New York Yankees",
+      "wins": 241
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/69/full/6xk2lpc36146pbg2kydf13e50.png",
+      "PCT": 48.56,
+      "away": 113,
+      "division": 3,
+      "home": 123,
+      "losses": 250,
+      "team_id": "oak",
+      "team_name": "Oakland Athletics",
+      "wins": 236
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/53/full/c0whfsa9j0vbs079opk2s05lx.png",
+      "PCT": 52.88,
+      "away": 121,
+      "division": 1,
+      "home": 136,
+      "losses": 229,
+      "team_id": "bos",
+      "team_name": "Boston Red Sox",
+      "wins": 257
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/64/full/7997_milwaukee_brewers-primary-2018.png",
+      "PCT": 46.69,
+      "away": 106,
+      "division": 5,
+      "home": 120,
+      "losses": 258,
+      "team_id": "mil",
+      "team_name": "Milwaukee Brewers",
+      "wins": 226
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/77/full/ajfeh4oqeealq37er15r3673h.png",
+      "PCT": 53.09,
+      "away": 125,
+      "division": 3,
+      "home": 133,
+      "losses": 228,
+      "team_id": "tex",
+      "team_name": "Texas Rangers",
+      "wins": 258
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/73/full/4344_san_diego_padres-primary-2015.png",
+      "PCT": 46.19,
+      "away": 95,
+      "division": 6,
+      "home": 129,
+      "losses": 261,
+      "team_id": "sdn",
+      "team_name": "San Diego Padres",
+      "wins": 224
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/51/thumbs/5171502018.gif",
+      "PCT": 47.42,
+      "away": 102,
+      "division": 4,
+      "home": 128,
+      "losses": 255,
+      "team_id": "atl",
+      "team_name": "Atlanta Braves",
+      "wins": 230
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/67/full/m01gfgeorgvbfw15fy04alujm.png",
+      "PCT": 51.44,
+      "away": 120,
+      "division": 4,
+      "home": 130,
+      "losses": 236,
+      "team_id": "nyn",
+      "team_name": "New York Mets",
+      "wins": 250
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/2535/full/9448_tampa_bay_rays-primary-2019.png",
+      "PCT": 47.53,
+      "away": 107,
+      "division": 1,
+      "home": 124,
+      "losses": 255,
+      "team_id": "tba",
+      "team_name": "Tampa Bay Rays",
+      "wins": 231
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/57/full/5347_cleveland_indians-primary-2014.png",
+      "PCT": 54.75,
+      "away": 135,
+      "division": 2,
+      "home": 130,
+      "losses": 219,
+      "team_id": "cle",
+      "team_name": "Cleveland Indians",
+      "wins": 265
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/52/full/5800_baltimore_orioles-primary-2019.png",
+      "PCT": 50.31,
+      "away": 99,
+      "division": 1,
+      "home": 145,
+      "losses": 241,
+      "team_id": "bal",
+      "team_name": "Baltimore Orioles",
+      "wins": 244
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/50/full/gnnnrbxcmjhdgeu6mavqk3945.png",
+      "PCT": 46.19,
+      "away": 111,
+      "division": 6,
+      "home": 113,
+      "losses": 261,
+      "team_id": "ari",
+      "team_name": "Arizona Diamondbacks",
+      "wins": 224
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/72/full/3zhma0aeq17tktge1huh7yok5.png",
+      "PCT": 51.65,
+      "away": 117,
+      "division": 5,
+      "home": 134,
+      "losses": 235,
+      "team_id": "sln",
+      "team_name": "St. Louis Cardinals",
+      "wins": 251
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/71/full/1250_pittsburgh_pirates-primary-2014.png",
+      "PCT": 50.31,
+      "away": 107,
+      "division": 5,
+      "home": 137,
+      "losses": 241,
+      "team_id": "pit",
+      "team_name": "Pittsburgh Pirates",
+      "wins": 244
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/54/full/q9gvs07u72gc9xr3395u6jh68.png",
+      "PCT": 59.5,
+      "away": 134,
+      "division": 5,
+      "home": 154,
+      "losses": 196,
+      "team_id": "chn",
+      "team_name": "Chicago Cubs",
+      "wins": 288
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/65/full/peii986yf4l42v3aa3hy0ovlf.png",
+      "PCT": 50.0,
+      "away": 115,
+      "division": 2,
+      "home": 128,
+      "losses": 243,
+      "team_id": "min",
+      "team_name": "Minnesota Twins",
+      "wins": 243
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/54/56/full/z9e0rqit393ojiizsemd0t1hx.png",
+      "PCT": 46.39,
+      "away": 100,
+      "division": 5,
+      "home": 125,
+      "losses": 260,
+      "team_id": "cin",
+      "team_name": "Cincinnati Reds",
+      "wins": 225
+    },
+    {
+      "img": "https://content.sportslogos.net/logos/53/4929/full/9503_houston_astros-primary-2000.png",
+      "PCT": 51.85,
+      "away": 113,
+      "division": 3,
+      "home": 139,
+      "losses": 234,
+      "team_id": "hou",
+      "team_name": "Houston Astros",
+      "wins": 252
+    }
+  ]
+}

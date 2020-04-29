@@ -1,255 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="stylesheet"
+      href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"
+    />
+    <title>React App</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="baseball.css" />
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
 
-  <title>Player Team - Dashboard</title>
+  <body id="body">
 
-  <!-- Custom fonts-->
-  <!--<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">-->
- <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">-->
+    <img class="mlbPic" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/2560px-Major_League_Baseball_logo.svg.png" sytle: width=200 hieght = 100>
+    <h1 id="nombre"> 2015-2018 MLB Stats</h1>
+    <div id="scrollbox">
+      <div class="table-responsive-large" id="nlw">
+        <!-- NLW -->
+        <table class="table table-hover table-light">
+          <thead class ="thead-dark" >
+            <tr>
+              <th scope="column">NL West</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody1" style= "box-shadow: 10px 10px 40px 3px blue;">
 
-  <link href="style.css" rel="stylesheet">
+          </tbody>
+        </table>
+      </div>
 
-</head>
+      <div class="table-responsive-large" id="nlc">
+        <!-- NLC -->
+        <table class="table table-hover table-light">
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">NL Central</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody2" style= "box-shadow: 10px 10px 40px 3px blue;">
+          </tbody>
+        </table>
+      </div>
 
-<body id="page-top">
-
-  <div id="wrapper">
-
-    
-    <div id="content-wrapper" class="d-flex flex-column">
-      <div id="content">
-        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-            <i class="fa fa-bars"></i>
-          </button>
-          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-            <div class="input-group">
-              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="button">
-                  <i class="fas fa-search fa-sm"></i>
-                </button>
-              </div>
-            </div>
-          </form>   
-        </nav>
-          
-          <div class="row">
-
+      <!-- National league East-->
+      <div class="table-responsive-large" id="nle">
+        <table class="table table-hover  table-light">
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">NL East</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody3" style= "box-shadow: 10px 10px 40px 3px blue;">
+        
+          </tbody>
+        </table>
+      </div>
+      <!-- AlE-->
+      <div class="table-responsive-large" id="alw">
+        <table class="table table-hover  table-light">
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">AL West</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody4" style= "box-shadow: 10px 10px 40px 3px red;">
             
-            <div class="col-xl-8 col-lg-7">
-              <div class="card shadow mb-4">
-                <!--<div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">-->
-                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Player Stats</h6>
-                 </div>
-                  <div class="card-body">
-                 
-	                  <table class="table">
-						  <thead class="thead-dark">
-						    <tr>
-						      <th scope="col">#</th>
-						      <th scope="col">Player Name</th>
-						      <th scope="col">Batting Average (BA)</th>
-						      <th scope="col">On Base percentage (OBP)</th>
-						      <th scope="col">Slugging Percentage (SLG)</th>
-						      <th scope="col">Home Runs (HR)</th>
-						      <th scope="col">Runs Batted In (RBI)</th>
-						      <th scope="col">Weighted Runs Created Plus (WRC)</th>
-						    </tr>
-						  </thead>
-						  <tbody>
-						    <tr>
-						      <th scope="row">1</th>
-						      <td>Mark</td>
-						      <td>100</td>
-						      <td>70%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">2</th>
-						      <td>Jacob</td>
-						      <td>200</td>
-						      <td>80%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-                            <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    <tr>
-						      <th scope="row">3</th>
-						      <td>Unknown</td>
-						      <td>150</td>
-						      <td>75%</td>
-						      <td>100%</td>
-						      <td>70</td>
-						      <td>100</td>
-						      <td>70</td>
-						    </tr>
-						    
-						  </tbody>
-						</table>
-					</div>
-                <!--</div>-->
-              </div>
-            </div>
+          </tbody>
+        </table>
+      </div>
+      <!-- NLC-->
+     <div class="table-responsive-large" id="alc">
+        <table class="table table-hover  table-light">
+          <thead class ="thead-dark" >
+            <tr>
+              <th scope="column">AL Central</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody5" style= "box-shadow: 10px 10px 40px 3px red;">
 
-            <!-- Pie Chart -->
-            <div class="col-xl-4 col-lg-5">
-              <div class="card shadow mb-4">
-                
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Prediction Zone</h6>
-                </div>
-                <div class="card-body">
-                  <div class="chart-pie pt-4 pb-2">
-                    <canvas id="myPieChart"></canvas>
-                  </div>
-                  <div class="mt-4 text-center small">
-
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Win!!
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Lose
-                    </span>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-          <div class="row">
-
+          </tbody>
+        </table>
+      </div>
+      <!-- NLW-->
+      <div class="table-responsive-large" id="ale">
+        <table class="table table-hover table-light" >
+          <thead class ="thead-dark">
+            <tr>
+              <th scope="column">AL East</th>
+              <th scope="column">Name</th>
+              <th scope="column">Wins</th>
+              <th scope="column">Losses</th>
+              <th scope="column">PCT</th>
+              <th scope="column">Home</th>
+              <th scope="column">Away</th>
+            </tr>
+          </thead>
+          <tbody id="tbody6" style= "box-shadow: 10px 10px 40px 3px red;">
             
-            <div class="col-xl-8 col-lg-7">
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Team Stats</h6>
-                </div>
-                <div class="card-body"> 
-                 
-                 <table class="table">
-					  <thead class = "table-dark">
-					    <tr>
-					      <th scope="col">#</th>
-					      <th scope="col">Team Name</th>
-					      <th scope="col">Divsion</th>
-					      <th scope="col">Number of Wins</th>
-					      <th scope="col">Number of Losses</th>
-					    </tr>
-					  </thead>
-					  <tbody>
-					    <tr>
-					      <th scope="row">1</th>
-					      <td>Detroit Tigers</td>
-					      <td>Central</td>
-					      <td>50</td>
-					      <td>60</td>
-					    </tr>
-					    <tr>
-					      <th scope="row">2</th>
-					      <td>New York Mets</td>
-					      <td>East</td>
-					      <td>70</td>
-					      <td>30</td>
-					    </tr>
-					    <tr>
-					      <th scope="row">3</th>
-					      <td>Texas Rangers</td>
-					      <td>West</td>
-					      <td>20</td>
-					      <td>70</td>
-					    </tr>
-					  </tbody>
-					</table>
-				</div>
-              </div>
-
-            <div class="col-xl-4 col-lg-7">
-              <div class="card shadow mb-4">
-
-              
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Visual represenatation of team/player</h6>
-                </div>
-                <div class="card-body">
-                  <div class="text-center">
-                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" src = "https://www.ballparksofbaseball.com/wp-content/uploads/2016/04/tiger16_top2.jpg" style="width: 25rem;"  alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
+          </tbody>
+        </table>
+      </div>
     </div>
     
-
-  </div>
-  
-
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
-
-  <!-- Core plugin JavaScript-->
-  <script src="jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
-
-  <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
-
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="ChartPieDemo.js"></script>
-
-</body>
-
+    <script type="text/javascript" src="./loader1.js"> </script>
+  </body>
 </html>

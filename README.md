@@ -1,11 +1,10 @@
-# Project
-Team project
+# Big-Data-Architecture
+Baseball Statistics Projection with twitter bot and prediction calculator
 
-# Project demo
-https://drive.google.com/file/d/1K0DDSuMXzcIPVTjitWsq8rXocnE9OG8b/view?usp=sharing
+This is a group project!!
 
-#Googledrive for initial activities
- https://drive.google.com/drive/folders/19uHF4uzqX_7SbsYB7NmlYPMqEzSgoMzX
+# Architecture
+Source -> Apache Spark -> Run Job for statistics -> MySQL -> RestServer -> FrontEnd
 
-PivotalTracker:
-https://www.pivotaltracker.com/n/projects/2433446 
+# Tools Used
+Goodle Cloud, Swagger, Apache Spark, MySQL, HTML, JS, CSS
